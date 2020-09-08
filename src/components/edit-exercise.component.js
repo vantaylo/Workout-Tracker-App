@@ -7,16 +7,6 @@ export default class EditExercise extends Component {
   constructor(props) {
     super(props);
 
-    this.onChangeUsername = this.onChangeUsername.bind(this);
-    this.onChangeType = this.onChangeType.bind(this);
-    this.onChangeWeight = this.onChangeWeight.bind(this);
-    this.onChangeSets = this.onChangeSets.bind(this);
-    this.onChangeReps = this.onChangeReps.bind(this);
-    this.onChangeDuration = this.onChangeDuration.bind(this);
-    this.onChangeDistance = this.onChangeDistance.bind(this);
-    this.onChangeDate = this.onChangeDate.bind(this);
-    this.onSubmit = this.onSubmit.bind(this);
-
     this.state = {
       username: "",
       type: "",
@@ -63,31 +53,55 @@ export default class EditExercise extends Component {
       });
   }
 
-  onChangeUsername(e) {
+  onChangeUsername = (e) => {
     this.setState({
       username: e.target.value,
     });
-  }
+  };
 
-  onChangeType(e) {
+  onChangeType = (e) => {
     this.setState({
       type: e.target.value,
     });
-  }
+  };
 
-  onChangeDuration(e) {
+  onChangeWeight = (e) => {
+    this.setState({
+      weight: e.target.value,
+    });
+  };
+
+  onChangeSets = (e) => {
+    this.setState({
+      sets: e.target.value,
+    });
+  };
+
+  onChangeReps = (e) => {
+    this.setState({
+      reps: e.target.value,
+    });
+  };
+
+  onChangeDuration = (e) => {
     this.setState({
       duration: e.target.value,
     });
-  }
+  };
 
-  onChangeDate(date) {
+  onChangeDistance = (e) => {
+    this.setState({
+      distance: e.target.value,
+    });
+  };
+
+  onChangeDate = (date) => {
     this.setState({
       date: date,
     });
-  }
+  };
 
-  onSubmit(e) {
+  onSubmit = (e) => {
     e.preventDefault();
 
     const exercise = {
@@ -111,12 +125,12 @@ export default class EditExercise extends Component {
       .then((res) => console.log(res.data));
 
     window.location = "/";
-  }
+  };
 
   render() {
     return (
       <div>
-        <h3>Edit Exercise Log</h3>
+        <h3>Edit Workout Log</h3>
         <form onSubmit={this.onSubmit}>
           <div className="form-group">
             <label>Username: </label>
@@ -204,7 +218,7 @@ export default class EditExercise extends Component {
           <div className="form-group">
             <input
               type="submit"
-              value="Edit Exercise Log"
+              value="Edit Workout Log"
               className="btn btn-primary"
             />
           </div>
