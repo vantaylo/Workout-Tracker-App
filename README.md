@@ -1,6 +1,6 @@
 # Workout-Tracker-App
 
-A workout tracker using Mongo database with a Mongoose schema. The frontend was provided.
+A workout tracker using React and Mongo database with a Mongoose schema.
 
 ## User Story
 
