@@ -27,4 +27,4 @@ In terminal, run $ npm start
 
 ## Preview
 [Link to deployed app!](https://workout-tracker-app1.herokuapp.com/)
-![](WorkoutTrackerAppDemo.mov)
+![](WorkoutTrackerAppDemo.gif)
