@@ -20,3 +20,11 @@ A consumer will reach their fitness goals quicker when they track their workout 
 - React: A JavaScript front-end library for building user interface.
 - Node.js: A JavaScript run-time enviroment.
 - Monogoose: A schema-based soulution to model application data.
+
+## Instructions
+
+In terminal, run $ npm start 
+
+## Preview
+[Link to deployed app!](https://workout-tracker-app1.herokuapp.com/)
+![](WorkoutTrackerAppDemo.mov)
