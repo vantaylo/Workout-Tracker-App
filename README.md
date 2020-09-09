@@ -26,5 +26,5 @@ A consumer will reach their fitness goals quicker when they track their workout 
 In terminal, run $ npm start 
 
 ## Preview
-[Link to deployed app!](https://workout-tracker-app1.herokuapp.com/)
+[Link to deployed app!](https://young-island-86325.herokuapp.com/)
 ![](WorkoutTrackerAppDemo.gif)
