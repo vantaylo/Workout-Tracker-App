@@ -14,10 +14,10 @@ function App() {
       <div className="container">
         <Navbar />
         <br />
-        <Route path="/" exact component={ExercisesList} />
-        <Route path="/edit/:id" component={EditExercise} />
-        <Route path="/create" component={CreateExercise} />
         <Route path="/user" component={CreateUser} />
+        <Route path="/create" component={CreateExercise} />
+        <Route path="/edit/:id" component={EditExercise} />
+        <Route path="/" exact component={ExercisesList} />
       </div>
     </Router>
   );
