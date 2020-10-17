@@ -2,6 +2,14 @@
 
 A workout tracker using React and Mongo database with a Mongoose schema.
 
+## Technologies
+
+- MongoDB: A documnet-based open source database.
+- Express: A web application framework for Node.js.
+- React: A JavaScript front-end library for building user interface.
+- Node.js: A JavaScript run-time enviroment.
+- Monogoose: A schema-based soulution to model application data.
+
 ## User Story
 
 As a user, I want to be able to view, create and track daily workouts. 
@@ -12,14 +20,6 @@ As a user, I want to be able to view, create and track daily workouts.
 ## Business Context
 
 A consumer will reach their fitness goals quicker when they track their workout progress.
-
-## Technologies
-
-- MongoDB: A documnet-based open source database.
-- Express: A web application framework for Node.js.
-- React: A JavaScript front-end library for building user interface.
-- Node.js: A JavaScript run-time enviroment.
-- Monogoose: A schema-based soulution to model application data.
 
 ## Instructions
 
