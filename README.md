@@ -10,6 +10,10 @@ A workout tracker using React and Mongo database with a Mongoose schema.
 - Node.js: A JavaScript run-time enviroment.
 - Monogoose: A schema-based soulution to model application data.
 
+## Instructions
+
+In terminal, run $ npm start 
+
 ## User Story
 
 As a user, I want to be able to view, create and track daily workouts. 
@@ -20,10 +24,6 @@ As a user, I want to be able to view, create and track daily workouts.
 ## Business Context
 
 A consumer will reach their fitness goals quicker when they track their workout progress.
-
-## Instructions
-
-In terminal, run $ npm start 
 
 ## Preview
 [Deployed Link](https://workout-tracker-app1.herokuapp.com/)
